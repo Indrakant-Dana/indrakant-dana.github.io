@@ -1,0 +1,595 @@
+body{
+    margin: 0px;
+}
+
+/*Body Header*/
+#body-header{
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("./images/background-header.jpg");
+}
+
+
+
+
+
+/*Navigation Lists Top*/
+
+.navigation{
+    list-style: none;
+    font-family: "Poppins Medium", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*margin-left: 15vw;*/
+    margin: 0 auto;
+    width: fit-content;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(66, 66, 66, 0.5);
+    text-align: center;
+}
+
+.navigation li{
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    margin-left: 0;
+    display: inline-block;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigation li a:hover{
+    /*background-color: rgb(66, 66, 66);*/
+    border-radius: 5px;
+    padding: 5px 5px;
+    box-shadow: 0px 0px 5px white;
+    transition: padding 0.2s;
+}
+
+
+
+
+
+
+/*Name*/
+#body-header .name{
+    font-family: "Poppins ExtraBold", sans-serif;
+    margin: 12% 0 0 0;
+    text-align: center;
+    font-size: 6rem;
+    color: white;
+}
+/*Subheading*/
+.subheading{
+    font-family: "Poppins Medium", sans-serif;
+    text-align: center;
+    letter-spacing: 1rem;
+    color: white;
+    margin: 0 0 5% 0;
+}
+
+
+
+
+
+
+
+/*Social Icons*/
+.socialLinks{
+    text-align: center;
+    margin-left: -2rem;
+}
+
+.socialLinks li{
+    margin: -30px 10px 0px 10px;
+    display: inline-block;
+}
+.socialLinks li img:hover{
+    width: 4vw;
+    transition: width 0.25s;
+}
+.socialLinks li img{
+    width: 2rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(255,255,255,0.8);
+}
+
+
+
+
+
+
+/*Section*/
+section{
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+section:nth-child(2n){
+    box-shadow: inset 0 0 10px white;
+    background-image: url("./images/background-header.jpg");
+    background-attachment: fixed;
+    background-position: revert;
+    background-size: cover;
+    color: #f7f1e4;
+}
+
+/*Each Section Headings*/
+.section-heading {
+    width: auto;
+    padding: 20px 0 0 0;
+}
+
+.section-heading span{
+    font-size: 40px;
+    font-family: "Poppins SemiBold", sans-serif;
+    display: inline-block;
+    padding-bottom: 3px;
+    margin-left: 10px;
+}
+
+
+
+
+
+/*About Section*/
+#about{
+    position:relative;
+}
+
+#my-image{
+    margin: -7% auto 0;
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+}
+
+#my-image img{
+    border-radius: 50%;
+    box-shadow: grey 1px 1px 10px;
+    width: 100%;
+    height: 100%;
+}
+#about p{
+    width: 70%;
+    font-size: 1.5rem;
+    text-align: justify;
+    font-family: "Poppins Light", sans-serif;
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+
+/*Skills Section*/
+.skills-display{
+    width: 70%;
+    height: auto;
+    padding: 0 0 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.skills-progress{
+    width: 13vw;
+    height: 5vh;
+    border-radius: 30px;
+    background-color: #dbd5d5;
+    box-shadow: inset grey 0 0 3px;
+    margin: 2rem 1.5rem;
+}
+.skills-progress>div{
+    height: inherit;
+    border-radius: 30px 0 0 30px;
+    box-shadow: dimgrey 2px 0 3px -1px;
+}
+
+.progress-name{
+    padding-top: 4%;
+}
+.progress-name span{
+    font-size: 0.8rem;
+    margin-left: 0.7rem;
+    color: white;
+    font-family: "Poppins Medium", sans-serif;
+}
+
+/*HTML*/
+.ninety-percent{
+    width: 90%;
+}
+
+/*CSS*/
+.mb-pink{
+    background-color: deeppink;
+}
+
+/*C++*/
+.mb-blue{
+    background-color: blue;
+}
+.eighty-five-percent{
+    width: 85%;
+}
+
+/*JavaScript*/
+.mb-light-orange{
+    background-color: orange;
+}
+.fifty-percent{
+    width: 50%;
+}
+
+/*Java*/
+.mb-orange{
+    background-color: darkorange;
+}
+.seventy-percent{
+    width: 70%;
+}
+.sixty-percent{
+    width: 60%;
+}
+
+/*Graphic Design*/
+.ninety-five-percent{
+    width: 95%;
+    border-radius: 30px 10px 10px 30px !important;
+}
+
+/*Front-End*/
+.mb-green{
+    background-color: green;
+}
+
+
+
+
+
+
+/*Experience*/
+.timeline{
+    position: relative;
+    width: 75%;
+    height: auto;
+    /*border: 1px solid black;*/
+    margin-bottom: 5rem;
+}
+#experience .timeline-divider{
+    position: absolute;
+    width: 0;
+    height: 73%;
+    top: 10%;
+    left: 50%;
+    border: 1px dashed grey;
+}
+#experience .timeline-traveller{
+    margin-top: -1.2rem;
+    position: sticky;
+    top: 30%;
+    transform: rotate(90deg);
+    z-index: 2;
+}
+#experience .timeline-box{
+    width: 30%;
+    height: 30vh;
+    /*border:  1px solid black;*/
+    margin: 0 15%;
+    text-align: right;
+}
+/*for dots*/
+#experience .timeline-box::after{
+    content: '';
+    position: absolute;
+    left: 49.8%;
+    margin: -15% 0 0 0;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 5rem;
+    background-color: grey;
+    z-index: 1;
+}
+#experience .timeline-box:nth-child(2n){
+    margin: -2rem 0 -1rem 55%;
+    text-align: left;
+    width: 35%;
+}
+#experience .timeline-heading{
+    font-family: "Poppins Medium",sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+#experience .timeline-logo{
+    width: 15%;
+    margin-top: 10%;
+    float: left;
+}
+#experience .more-than-one-org{
+    display: flex;
+    position: absolute;
+    width: 20%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+#experience .timeline-logo img{
+    width: 100%;
+}
+#experience .more-than-one-org img{
+    width: 30%;
+    margin: 0 1%;
+}
+#experience .timeline-logo:nth-child(2n){
+    /*margin-top: -5%;*/
+    float: right;
+}
+#experience .organization{
+    font-family: "Poppins Medium", sans-serif;
+    letter-spacing: 1px;
+    margin-top: -5%;
+    font-size: 1rem;
+}
+#experience .start-end{
+    font-family: "Poppins Light", sans-serif;
+    margin-top: -3%;
+    font-size: 0.8rem;
+}
+#experience .info{
+    font-family: "Poppins Light", sans-serif;
+    font-size: 0.7rem;
+    color: darkred;
+    text-align: justify;
+}
+/*Basic Inline Property*/
+.inlineBlock{
+    display: inline-block;
+}
+/*Basic Organization Color Properties*/
+.coding-ninjas{
+    color: #dc7d44;
+}
+.mait{
+    color: #dc2129;
+}
+.dsc{
+    color: #4285F4;
+}
+.timeline-box .coding-club{
+    position: absolute;
+    top: 61%;
+    right: 10%;
+    width: 5rem !important;
+}
+.coding-club img{
+    width: 100%;
+}
+
+
+
+
+
+
+/*Education Section*/
+#education .timeline-divider{
+    position: absolute;
+    width: 0;
+    height: 63%;
+    top: 15%;
+    left: 50%;
+    border: 1px dashed grey;
+}
+#education .timeline-traveller{
+    margin-top: -1.3rem;
+    position: sticky;
+    top: 50%;
+    transform: rotate(90deg);
+    z-index: 2;
+}
+#education .timeline-box{
+    width: 25%;
+    /*border:  1px solid black;*/
+    margin-left: 20%;
+    /*margin-bottom: 5%;*/
+    text-align: right;
+}
+/*for dots*/
+#education .timeline-box::after{
+    content: '';
+    position: absolute;
+    left: 29.5rem;
+    margin-top: -7%;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 5rem;
+    background-color: grey;
+    z-index: 1;
+}
+#education .timeline-box:nth-child(2n){
+    margin-left: 55%;
+    text-align: left;
+    width: 30%;
+    height: 15vh;
+}
+#education .timeline-heading{
+    font-family: "Poppins Bold",sans-serif;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+#education .timeline-logo{
+    width: 15%;
+    margin-top: 10%;
+    float: left;
+}
+#education .timeline-logo img{
+    width: 100%;
+}
+#education .timeline-logo:nth-child(2n){
+    float: right;
+    margin-top: 7%;
+}
+#education .organization{
+    font-family: "Poppins Medium", sans-serif;
+    letter-spacing: 1px;
+    color: #333399;
+    margin-top: -5%;
+    font-size: 0.8rem;
+}
+#education .start-end{
+    font-family: "Poppins Light", sans-serif;
+    margin-top: -3%;
+    font-size: 0.8rem;
+}
+/*#education .info{*/
+/*    font-family: "Poppins Light", sans-serif;*/
+/*    font-size: 0.7rem;*/
+/*    color: darkred;*/
+/*    text-align: justify;*/
+/*}*/
+
+
+
+
+
+
+
+
+/*Projects Section*/
+.projects-container{
+    width: 90%;
+    /*padding: 0 0 2rem 0;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 5% auto;
+}
+.project{
+    position: relative;
+    box-shadow: 0 0 5px white;
+    border-radius: 1rem;
+}
+.project img{
+    height: auto;
+    width: 15rem;
+    margin: 1rem 1rem;
+}
+.portfolio-details {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    color: transparent;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+.portfolio-details p{
+    padding-top: 20%;
+    font-size: 2rem;
+    overflow-wrap: break-word ;
+    font-family: "Poppins Medium", sans-serif;
+}
+.project:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+.project:hover .portfolio-details {
+    background-color: rgba(128, 128, 128, 0.47);
+    color: white;
+    border-radius: 1rem;
+}
+
+
+
+
+
+/*Contact Section*/
+#contact{
+    box-shadow: none;
+    background: linear-gradient(50deg
+            , #2857a4 0%, #403066 74%);;
+}
+.contact-container{
+    display: flex;
+    height: 65vh;
+    /*margin-top: 4%;*/
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.message-form-container{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px -1px black;
+    background: rgba(256,256,256,0.2);
+}
+#contact-form{
+    text-align: center;
+}
+#contact-form input, textarea {
+    width: 90%;
+    height: 2rem;
+    margin: 3%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+}
+::placeholder{
+    font-family: "Poppins Light", sans-serif;
+    font-size: 1rem;
+    color:white;
+}
+#contact-form textarea{
+    height: 5rem;
+}
+#contact-form .submitButton{
+    border: 1px solid black;
+    font-family: "Poppins Medium",sans-serif;
+    color: black;
+    background: white;
+    width: 40%;
+}
+.my-details{
+    width: 30%;
+    height: auto;
+    text-align: justify;
+}
+.my-details{
+    padding-top: 0;
+    font-family: "Poppins Light", sans-serif;
+}
+#contact .my-details h1, h2{
+    font-family: "Poppins SemiBold", sans-serif;
+    font-size: 1.5rem;
+    color: #ffd813;
+}
+.contact-links{
+    display: flex;
+    align-items: baseline;
+    margin-top: -3%;
+    margin-left: 2%;
+}
+.contact-links a i{
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.footer{
+    font-family: "Poppins Light", sans-serif;
+    font-size: 0.75rem;
+    margin-bottom: 3%;
+}
