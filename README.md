@@ -14,8 +14,10 @@ as well. 😊😄
 to view my website.* 💛
 
 ## 
-**Reminder: This Website is made only
+**Reminder:** This Website is made only
 using HTML and CSS only. 
-Also, the Form section doesn't work as I 
-don't have knowledge of backend yet 😞. I will fix that
-soon. Till that time, you have to wait 🙏.**
+Some functions are not working, will correct them soon:
+* The Form section doesn't work as I 
+don't have knowledge of the backend yet 😞. I will fix that
+soon. Till that time, you have to wait 🙏.
+* Also the website is made on a 14-inch laptop. So, there might be some CSS issues with the website on smaller or larger screens. Working on the responsive design part too. Appreciate your patience.😊
